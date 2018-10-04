@@ -8,6 +8,16 @@
 *.user
 *.userosscache
 *.sln.docstates
+#*.sln
+*.css
+*.config
+*.cs
+notes.md
+Properties/PublishProfiles/
+data/
+wwwroot/lib
+wwwroot/fonts
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.1</TargetFramework>
+		<MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+		<Version>1.0.20</Version>
+		<PackageId>CsufBootstrap</PackageId>
+		<Authors>California State University, Fullerton</Authors>
+		<ApplicationIcon />
+		<OutputType>Exe</OutputType>
+		<StartupObject />
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<AssemblyVersion>1.0.12</AssemblyVersion>
+		<FileVersion>1.0.12</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="wwwroot\fonts\**" />
+		<Compile Remove="wwwroot\lib\**" />
+		<Content Remove="wwwroot\fonts\**" />
+		<Content Remove="wwwroot\lib\**" />
+		<EmbeddedResource Remove="wwwroot\fonts\**" />
+		<EmbeddedResource Remove="wwwroot\lib\**" />
+		<None Remove="wwwroot\fonts\**" />
+		<None Remove="wwwroot\lib\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Remove=".filenesting.json" />
+		<Content Remove="bower.json" />
+		<Content Remove="compilerconfig.json" />
+		<Content Remove="libman.json" />
+		<Content Remove="wwwroot\css\CSUFBootstrapSass.css" />
+		<Content Remove="wwwroot\css\CSUFBootstrapSass.scss" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove=".msbump" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="wwwroot\images\" />
+		<Folder Include="wwwroot\js\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="bower.json" />
+		<None Include="compilerconfig.json" />
+		<None Include="libman.json" />
+		<None Include="wwwroot\css\CSUFBootstrapSass.css" />
+		<None Include="wwwroot\css\CSUFBootstrapSass.scss" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.App" />
+		<PackageReference Include="MSBump" Version="2.3.2">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>

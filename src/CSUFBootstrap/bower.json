@@ -1,0 +1,21 @@
+{
+	"name": "csuf.cdn",
+	"private": true,
+	"version": "0.0.0",
+	"authors": [
+		"CSUF Information Technology <helpdesk@fullerton.edu>"
+	],
+	"ignore": [
+		"node_modules",
+		"bower_components",
+		"bower-components",
+		"wwwroot/lib"
+	],
+	"dependencies": {
+		"bootstrap-sass": "3.3.7",
+		"bootstrap-css": "v3.3.7"
+	},
+	"resolutions": {
+		"jquery": "3.3.7"
+	}
+}
