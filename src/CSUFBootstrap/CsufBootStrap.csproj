@@ -4,15 +4,15 @@
 	<PropertyGroup>
 		<TargetFramework>netcoreapp2.1</TargetFramework>
 		<MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
-		<Version>1.0.32-dev0001</Version>
+		<Version>1.0.40</Version>
 		<PackageId>CsufBootstrap</PackageId>
 		<Authors>California State University, Fullerton</Authors>
 		<ApplicationIcon />
 		<OutputType>Exe</OutputType>
 		<StartupObject />
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<AssemblyVersion>1.0.12</AssemblyVersion>
-		<FileVersion>1.0.12</FileVersion>
+		<AssemblyVersion>1.0.15</AssemblyVersion>
+		<FileVersion>1.0.15</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
