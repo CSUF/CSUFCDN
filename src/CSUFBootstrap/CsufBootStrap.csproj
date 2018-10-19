@@ -4,7 +4,7 @@
 	<PropertyGroup>
 		<TargetFramework>netcoreapp2.1</TargetFramework>
 		<MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
-		<Version>1.0.32</Version>
+		<Version>1.0.32-dev0001</Version>
 		<PackageId>CsufBootstrap</PackageId>
 		<Authors>California State University, Fullerton</Authors>
 		<ApplicationIcon />
@@ -29,6 +29,8 @@
 		<Content Remove="libman.json" />
 		<Content Remove="wwwroot\css\CSUFBootstrapSass.css" />
 		<Content Remove="wwwroot\css\CSUFBootstrapSass.scss" />
+		<Content Remove="wwwroot\css\Xjazjw.css" />
+		<Content Remove="wwwroot\css\Xjazjw.scss" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -46,6 +48,8 @@
 		<None Include="libman.json" />
 		<None Include="wwwroot\css\CSUFBootstrapSass.css" />
 		<None Include="wwwroot\css\CSUFBootstrapSass.scss" />
+		<None Include="wwwroot\css\Xjazjw.css" />
+		<None Include="wwwroot\css\Xjazjw.scss" />
 		<None Include="wwwroot\fonts\bootstrap\glyphicons-halflings-regular.svg" />
 		<None Include="wwwroot\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
 	</ItemGroup>
