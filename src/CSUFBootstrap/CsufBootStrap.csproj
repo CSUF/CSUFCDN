@@ -4,7 +4,7 @@
 	<PropertyGroup>
 		<TargetFramework>netcoreapp2.1</TargetFramework>
 		<MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
-		<Version>1.0.40</Version>
+		<Version>1.0.42</Version>
 		<PackageId>CsufBootstrap</PackageId>
 		<Authors>California State University, Fullerton</Authors>
 		<ApplicationIcon />
