@@ -8,15 +8,15 @@
 *.user
 *.userosscache
 *.sln.docstates
-#*.sln
-*.css
 *.config
 *.cs
-notes.md
-Properties/PublishProfiles/
-data/
-wwwroot/lib
-wwwroot/fonts
+
+src/CSUFBootstrap/notes.md
+src/CSUFBootstrap/data/
+
+src/CSUFBootstrap/Properties/PublishProfiles/
+src/CSUFBootstrap/wwwroot/lib
+src/CSUFBootstrap/wwwroot/fonts
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
